@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_lokachain=self.webpackChunkdocs_lokachain||[]).push([[903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/DOCUMENTAION/blog","blogTitle":"Blog","authorsListPath":"/DOCUMENTAION/blog/authors"}')}}]);
