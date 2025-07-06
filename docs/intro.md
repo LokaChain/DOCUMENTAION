@@ -45,6 +45,4 @@ ignite chain build
 Breakdown :
 - `~/go/bin/lokachaind`:This is the binary executable for your custom Lokachain application, located in the Go binary path (~/go/bin).
 
-- `~/go/bin/lokachaind`:This is the binary executable for your custom LokaChain application, located in the Go binary path (~/go/bin).
-
 - `start`:This subcommand starts the Tendermint consensus engine and ABC I application, which together run your node
