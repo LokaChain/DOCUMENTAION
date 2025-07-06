@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # 📖 Introduction
-Welcome to the documentation of LokaChain, a blockchain built with the Cosmos SDK. This guide will help developers, validators, and users understand and interact with the chain.
+Welcome to the documentation of LokaChain. This guide will help developers, validators, and users understand and interact with the chain.
 
 # Setup Instructions
 
@@ -32,7 +32,7 @@ cd LokaChain
 
 ## Compiling the blockchain
 
-To compile the source code of a Cosmos SDK-based blockchain application into a runnable binary, effectively creating a local executable for your blockchain
+To compile the source code of a  Lokachain application into a runnable binary, effectively creating a local executable for your blockchain
 
 ```bash
 ignite chain build
