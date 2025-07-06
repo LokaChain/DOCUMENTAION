@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs_lokachain=self.webpackChunkdocs_lokachain||[]).push([[656],{52:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/DOCUMENTAION/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
