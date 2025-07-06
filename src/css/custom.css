@@ -13,6 +13,8 @@
   --ifm-color-primary-light: #ffe066;
   --ifm-color-primary-lighter: #ffea99;
   --ifm-color-primary-lightest: #fff6cc;
+  --ifm-color-primary-contrast-background: #222; /* Good contrast for gold */
+  --ifm-color-primary-contrast-foreground: #222; /* For buttons/links on gold */
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
