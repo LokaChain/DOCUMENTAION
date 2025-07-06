@@ -6,27 +6,29 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #ffd700;
-  --ifm-color-primary-dark: #e6be00;
-  --ifm-color-primary-darker: #bfa600;
-  --ifm-color-primary-darkest: #8c7c00;
-  --ifm-color-primary-light: #ffe066;
-  --ifm-color-primary-lighter: #ffea99;
-  --ifm-color-primary-lightest: #fff6cc;
-  --ifm-color-primary-contrast-background: #222; /* Good contrast for gold */
-  --ifm-color-primary-contrast-foreground: #222; /* For buttons/links on gold */
+  --ifm-color-primary: #003399; /* Royal Blue (dark shade for light mode) */
+  --ifm-color-primary-dark: #002080;
+  --ifm-color-primary-darker: #001966;
+  --ifm-color-primary-darkest: #00124d;
+  --ifm-color-primary-light: #3355cc;
+  --ifm-color-primary-lighter: #6685e0;
+  --ifm-color-primary-lightest: #99b3f2;
+  --ifm-color-primary-contrast-background: #fff; /* White for contrast */
+  --ifm-color-primary-contrast-foreground: #003399; /* Royal Blue for text on light backgrounds */
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #ffd700;
-  --ifm-color-primary-dark: #e6be00;
-  --ifm-color-primary-darker: #bfa600;
-  --ifm-color-primary-darkest: #8c7c00;
-  --ifm-color-primary-light: #ffe066;
-  --ifm-color-primary-lighter: #ffea99;
-  --ifm-color-primary-lightest: #fff6cc;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #99b3f2; /* Light royal blue for dark mode */
+  --ifm-color-primary-dark: #6685e0;
+  --ifm-color-primary-darker: #3355cc;
+  --ifm-color-primary-darkest: #003399;
+  --ifm-color-primary-light: #c2d1fa;
+  --ifm-color-primary-lighter: #e6ecfa;
+  --ifm-color-primary-lightest: #f7faff;
+  --ifm-color-primary-contrast-background: #003399; /* Royal Blue for contrast */
+  --ifm-color-primary-contrast-foreground: #fff; /* White for text on blue backgrounds */
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
 }
