@@ -14,16 +14,21 @@ This is the frontend interface for interacting with the **Lokachain** blockchain
 
 ---
 
-## 🔧 Development Notes
+##  Development Notes
 
-### 🧾 Account Setup
+###  Dependencies
+-**Keplr Wallet**
+-**Cosmos SDK**
+-**REST/RPC Endpoints**
+
+###  Account Setup
 - Keplr generates new accounts from your seed.
 - Pre-funded accounts:
   - `alice` (~20M STAKE)
   - `bob` (~100 STAKE)
 - You can transfer tokens from `alice`/`bob` to your Keplr address for testing.
 
-### 🧪 Troubleshooting
+###  Troubleshooting
 - Check browser console (`F12`) for detailed logs.
 - Ensure **Keplr** is installed and unlocked.
 - Verify RPC/REST endpoints are accessible.
@@ -39,7 +44,7 @@ This is the frontend interface for interacting with the **Lokachain** blockchain
 
 ---
 
-## 💸 Send Tokens
+##  Send Tokens
 
 Use the form to transfer tokens:
 
@@ -54,9 +59,27 @@ Click **"Initialize CosmWasm Client"** to connect with smart contract modules.
 
 ---
 
-## 🧑‍💻 Useful CLI Commands
+##  Useful CLI Commands
 
 ### ➤ Transfer Tokens
 ```bash
-lokachaind tx bank send alice [ADDRESS] 1000000stake --chain-id loka
+lokachaind tx bank send alice [ADDRESS] 1000000stake --chain-id lokachain
 ``` 
+
+### ➤Check balance
+```bash
+lokachaind query bank balances [ADDRESS]
+``` 
+
+##  Status Bar
+- **Connection Status** : Shows if Keplr and RPC are connected.
+- **Buttons**:
+-Add Chain: Add Lokachain to Keplr
+
+-Check: Check current wallet connection
+
+-Test RPC: Verify RPC functionality
+
+-Get Address: Retrieve wallet address
+
+-Refresh Balance: Update token balance
